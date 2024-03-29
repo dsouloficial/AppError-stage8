@@ -1,0 +1,21 @@
+{
+  "name": "api-explorer",
+  "version": "1.0.0",
+  "description": "API desenvolvida no programa explorer da Rocketseat.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Denilson Bernardo do Nascimento",
+  "license": "ISC",
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
